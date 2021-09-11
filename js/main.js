@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hasnain Waheed", " Web Developer.", " Software Engineer."],
+      strings: ["Hasnain Waheed", " Software Engineer.","Web Developer.","Game/HTML Developer."],
       typeSpeed: 100,
       loop: true,
     });
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 
   $('.services-carousel').owlCarousel({
-      autoplay: true,
+      autoplay: false,
       loop: true,
       margin: 20,
       dots: true,
